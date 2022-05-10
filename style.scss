@@ -1,0 +1,147 @@
+$gray:#f0f5f4;
+$text:#272727;
+$brand:#aece89;
+$icons:#868582;
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Roboto:wght@100&display=swap');
+
+body{
+
+    .top{ background: $gray;
+        line-height: 30px;
+   
+    .col-8{
+
+       ul{
+         text-decoration: none;
+         :last-child{
+          border: none;  
+         }
+           li{
+               display: inline;
+               color:$text;
+               background: $gray;
+               border-right: 1px solid $text;
+               padding: 0 10px;
+               i{
+                 color:$brand;
+               }
+
+            
+               
+         }  }
+       }
+    
+    .col-4{
+ 
+      i{
+        padding: 0 10px;
+      
+        color:#868582;
+        &:hover{
+          color:$text;
+        }
+      }
+    }
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  ul{
+  
+      padding-left: 200px;
+      }
+      li{
+        padding: 15px;
+        font-weight: bold;
+  
+      }
+  
+  }
+  .banner{
+    
+    h5{
+      font-size: 50px;
+      font-family: 'Oleo Script', cursive;
+      font-weight: bold;
+      color:black;
+
+    }
+    p{
+      color:black;
+      padding-top: 60px;
+      font-weight: bold;
+    }
+    .carousel-control-prev, .carousel-control-next{
+      background: black;
+      width:30px;
+      height:30px;
+      margin-top: 200px;
+        
+    }
+    .d-none{
+      margin-bottom: 20%;
+     button{
+       border-radius: 40px;
+     }
+    
+      }
+    }
+    .image{
+      .row{
+        background: $brand;
+        border-radius: 40px;
+      .col{
+        border-right: 1px solid white;
+           
+            img{
+              padding-top:40px;
+              
+              
+            }
+      }
+    }
+  }
+  .rainbow{
+    padding: 90px 30px;
+    background: $gray;
+    .btn{
+      padding: 20px;
+      margin-top: 40px;
+      background: $brand;
+      color:white;
+      font-weight: bold;
+      border-radius: 40px;
+      
+    }
+     .col{
+       .order{
+        font-weight: bold;
+        padding-top: 150px;
+         i{
+           color:red;
+         }
+         h5{
+          padding-left: 50px;
+          margin-top: -45px;
+         }
+       }
+       .text{
+         font-size: 20px;
+         padding-top: 30px;
+       }
+      p{
+        font-weight: bold;
+      }
+       h1{
+         font-weight: bold;
+         font-family: 'Oleo Script', cursive;
+         font-size:60px;
+         span{
+           color:$brand;
+         }
+         
+
+       }
+     }
+  }
+}

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&family=Roboto:wght@100&display=swap");
+body .top {
+  background: #f0f5f4;
+  line-height: 30px;
+}
+
+body .top .col-8 ul {
+  text-decoration: none;
+}
+
+body .top .col-8 ul :last-child {
+  border: none;
+}
+
+body .top .col-8 ul li {
+  display: inline;
+  color: #272727;
+  background: #f0f5f4;
+  border-right: 1px solid #272727;
+  padding: 0 10px;
+}
+
+body .top .col-8 ul li i {
+  color: #aece89;
+}
+
+body .top .col-4 i {
+  padding: 0 10px;
+  color: #868582;
+}
+
+body .top .col-4 i:hover {
+  color: #272727;
+}
+
+body .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .navbar ul {
+  padding-left: 200px;
+}
+
+body .navbar li {
+  padding: 15px;
+  font-weight: bold;
+}
+
+body .banner h5 {
+  font-size: 50px;
+  font-family: 'Oleo Script', cursive;
+  font-weight: bold;
+  color: black;
+}
+
+body .banner p {
+  color: black;
+  padding-top: 60px;
+  font-weight: bold;
+}
+
+body .banner .carousel-control-prev, body .banner .carousel-control-next {
+  background: black;
+  width: 30px;
+  height: 30px;
+  margin-top: 200px;
+}
+
+body .banner .d-none {
+  margin-bottom: 20%;
+}
+
+body .banner .d-none button {
+  border-radius: 40px;
+}
+
+body .image .row {
+  background: #aece89;
+  border-radius: 40px;
+}
+
+body .image .row .col {
+  border-right: 1px solid white;
+}
+
+body .image .row .col img {
+  padding-top: 40px;
+}
+
+body .rainbow {
+  padding: 90px 30px;
+  background: #f0f5f4;
+}
+
+body .rainbow .btn {
+  padding: 20px;
+  margin-top: 40px;
+  background: #aece89;
+  color: white;
+  font-weight: bold;
+  border-radius: 40px;
+}
+
+body .rainbow .col .order {
+  font-weight: bold;
+  padding-top: 150px;
+}
+
+body .rainbow .col .order i {
+  color: red;
+}
+
+body .rainbow .col .order h5 {
+  padding-left: 50px;
+  margin-top: -45px;
+}
+
+body .rainbow .col .text {
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+body .rainbow .col p {
+  font-weight: bold;
+}
+
+body .rainbow .col h1 {
+  font-weight: bold;
+  font-family: 'Oleo Script', cursive;
+  font-size: 60px;
+}
+
+body .rainbow .col h1 span {
+  color: #aece89;
+}
+/*# sourceMappingURL=style.css.map */
